@@ -24,7 +24,7 @@ const SearchBar = () => {
           className="absolute w-[20px] h-[20px] ml-4"
           alt="car model"
         />
-        <input className="searchbar__input" type="text" name="model" placeholder="Tiguan" />
+        <input className="searchbar__input" type="text" name="model" placeholder="Tiguan..." />
       </div>
     </form>
   );
