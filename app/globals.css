@@ -84,6 +84,10 @@
 .home__error-container {
   @apply mt-16 flex justify-center items-center flex-col gap-2;
 }
+
+.home__loading-container {
+  @apply mt-16 flex justify-center items-center flex-col gap-2;
+}
 /* END: Home styles */
 
 /* START: Car Card styles */

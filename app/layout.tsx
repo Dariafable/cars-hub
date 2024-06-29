@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   description: "Discover the best sport cars in the world.",
 };
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) => {
   return (
     <html lang="en">
       <body className="relative">
@@ -21,4 +21,6 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
